@@ -1,0 +1,5 @@
+N = int(input())
+A = list(map(int,input().split()))
+tempx = max(A)
+tempn = min(A)
+print(tempx*tempn)
